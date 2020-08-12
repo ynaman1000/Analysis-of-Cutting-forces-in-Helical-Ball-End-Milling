@@ -1,0 +1,35 @@
+Number of Inputs,2,
+Number of Outputs,3,
+Number of data points,910,
+Case,1,
+Size of mini-batch,890,
+Number of batches,1,
+Number of Training examples,890,
+Number of Validation examples,20,
+Number of iterations,10000,
+Layer Normalization,True,
+,
+Optimizer,<class 'torch.optim.adam.Adam'>,
+Activation Function,<class 'torch.nn.modules.activation.PReLU'>,
+,
+Loss function,isSum,False,
+,isAbsolute,False,
+,isPercent,True,
+,Regularisation,None,
+,
+,
+initLR,lrUpdateCoeff,lrUpdatePeriod,L1,N1,L2,N2,e1,e2,e3,e4,e5,e6,
+0.01,2.0,1000.0,2.0,270.0,1.0,3.0,0.8955035209655762,0.5100173950195312,0.923292338848114,
+0.01,2.0,1000.0,2.0,270.0,1.0,3.0,0.8638966679573059,0.33290258049964905,0.7113921642303467,
+,
+
+0.01,2.0,1000.0,2.0,270.0,1.0,3.0,0.8638966679573059,e1,
+0.01,2.0,1000.0,2.0,270.0,1.0,3.0,0.33290258049964905,e2,
+0.01,2.0,1000.0,2.0,270.0,1.0,3.0,0.7113921642303467,e3,
+
+All errors less than 1
+0.01,2.0,1000.0,2.0,270.0,1.0,3.0,0.8638966679573059,0.33290258049964905,0.7113921642303467,
+
+No Other Top Performers found!!!!
+
+Total Time taken by GPU(in seconds),168.667804479599,
